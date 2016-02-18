@@ -8,3 +8,18 @@
 // @import "bootstrap-grid";
 // or Import Bootstrap Reboot
 // @import "bootstrap-reboot";
+@import "font-awesome-compass";
+@import "compass/css3";
+@import "font-awesome";
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.footer {
+  font-size: .5em;
+}

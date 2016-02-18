@@ -3353,34 +3353,19 @@
 }
 
 /* line 5, ../sass/style.scss */
-.shadow {
-  box-shadow: #000 5px 5px 5px;
+body {
+  padding-top: 5rem;
 }
 
-/* line 9, ../sass/style.scss */
-.box {
-  color: blue;
-  background-color: green;
+/* line 8, ../sass/style.scss */
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
-/* line 14, ../sass/style.scss */
-:-webkit-full-screen a {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-}
-:-moz-full-screen a {
-  display: flex;
-}
-:-ms-fullscreen a {
-  display: -ms-flexbox;
-  display: flex;
-}
-:fullscreen a {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+/* line 13, ../sass/style.scss */
+.footer {
+  font-size: .5em;
 }
 
 /*!
