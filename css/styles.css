@@ -10523,18 +10523,35 @@ a.bg-danger:focus, a.bg-danger:hover {
   content: "";
 }
 
-/* line 15, ../sass/styles.scss */
+/* line 1, ../sass/_customized.scss */
 body {
   padding-top: 5rem;
 }
 
-/* line 18, ../sass/styles.scss */
-.starter-template {
+/* line 5, ../sass/_customized.scss */
+.text-box--centered {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
-/* line 23, ../sass/styles.scss */
+/* line 14, ../sass/_customized.scss */
+.skill-item--font {
+  font-size: 1.25em;
+}
+
+/* line 18, ../sass/_customized.scss */
+.skill-main--spacing {
+  margin-top: 20px;
+}
+
+/* line 22, ../sass/_customized.scss */
 .footer {
   font-size: .5em;
+}
+
+/* line 26, ../sass/_customized.scss */
+.bg-custom {
+  color: red;
+  background: -webkit-linear-gradient(86deg, #00ffff 15%, #0080ff 16%);
+  background: linear-gradient(4deg, #00ffff 15%, #0080ff 16%);
 }
