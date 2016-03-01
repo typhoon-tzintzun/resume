@@ -1,9 +1,21 @@
+$prime_blue: #00a199;
+$secondary_blue: #ffffff;
+$third_color: #266dd3;
+$fourth_color: #a288e3;
+$theFifth: #344055;
+$the_magic: #ff00e6;
+
 body {
   padding-top: 5rem;
+  background-color: $theFifth;
+}
+
+html {
+  background-color: $theFifth;
 }
 
 .text-box--centered {
-  padding: 3rem 1.5rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -24,6 +36,24 @@ body {
 }
 
 .bg-custom {
-  color: red;
-  background: linear-gradient(4deg, #00FFFF 15%,#0080ff 16%);
+  color: $secondary_blue;
+  background: linear-gradient(3deg, $prime_blue 15%,$third_color 16%);
+}
+
+.jumbotron {
+  background-color: $the_magic;
+}
+
+.jumbotron--magenta {
+  @extend .jumbotron;
+  background-color: $prime_blue;
+}
+
+.jumbotron--other {
+  @extend .jumbotron;
+  margin-top: 5;
+  margin-bottom: 5;
+  padding: 0;
+  border: 0;
+  background-color: $fourth_color;
 }

@@ -5039,7 +5039,7 @@ a.label:focus, a.label:hover {
 }
 
 /* line 1, ../../../../.rvm/gems/ruby-2.2.1/gems/bootstrap-4.0.0.alpha3/assets/stylesheets/bootstrap/_jumbotron.scss */
-.jumbotron {
+.jumbotron, .jumbotron--magenta, .jumbotron--other {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #eceeef;
@@ -5047,7 +5047,7 @@ a.label:focus, a.label:hover {
 }
 @media (min-width: 544px) {
   /* line 1, ../../../../.rvm/gems/ruby-2.2.1/gems/bootstrap-4.0.0.alpha3/assets/stylesheets/bootstrap/_jumbotron.scss */
-  .jumbotron {
+  .jumbotron, .jumbotron--magenta, .jumbotron--other {
     padding: 4rem 2rem;
   }
 }
@@ -10523,35 +10523,60 @@ a.bg-danger:focus, a.bg-danger:hover {
   content: "";
 }
 
-/* line 1, ../sass/_customized.scss */
+/* line 8, ../sass/_customized.scss */
 body {
   padding-top: 5rem;
+  background-color: #344055;
 }
 
-/* line 5, ../sass/_customized.scss */
+/* line 13, ../sass/_customized.scss */
+html {
+  background-color: #344055;
+}
+
+/* line 17, ../sass/_customized.scss */
 .text-box--centered {
-  padding: 3rem 1.5rem;
+  padding: 1rem;
   text-align: center;
 }
 
-/* line 14, ../sass/_customized.scss */
+/* line 26, ../sass/_customized.scss */
 .skill-item--font {
   font-size: 1.25em;
 }
 
-/* line 18, ../sass/_customized.scss */
+/* line 30, ../sass/_customized.scss */
 .skill-main--spacing {
   margin-top: 20px;
 }
 
-/* line 22, ../sass/_customized.scss */
+/* line 34, ../sass/_customized.scss */
 .footer {
   font-size: .5em;
 }
 
-/* line 26, ../sass/_customized.scss */
+/* line 38, ../sass/_customized.scss */
 .bg-custom {
-  color: red;
-  background: -webkit-linear-gradient(86deg, #00ffff 15%, #0080ff 16%);
-  background: linear-gradient(4deg, #00ffff 15%, #0080ff 16%);
+  color: #ffffff;
+  background: -webkit-linear-gradient(87deg, #00a199 15%, #266dd3 16%);
+  background: linear-gradient(3deg, #00a199 15%, #266dd3 16%);
+}
+
+/* line 43, ../sass/_customized.scss */
+.jumbotron, .jumbotron--magenta, .jumbotron--other {
+  background-color: #ff00e6;
+}
+
+/* line 47, ../sass/_customized.scss */
+.jumbotron--magenta {
+  background-color: #00a199;
+}
+
+/* line 52, ../sass/_customized.scss */
+.jumbotron--other {
+  margin-top: 5;
+  margin-bottom: 5;
+  padding: 0;
+  border: 0;
+  background-color: #a288e3;
 }
